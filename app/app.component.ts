@@ -3,6 +3,7 @@ import {HeroComponent} from './hero/hero.component';
 import {HeroFormComponent} from './hero-form/hero-form.component';
 import {HeroesListComponent} from './hero-list/heroes-list.component';
 import {HttpTestComponent} from './http-test/http-test.component';
+import {ObservableTestComponent} from './observable-test/observable-test.component';
 
 
 interface Hero {
@@ -18,8 +19,9 @@ interface Hero {
     <hero-form></hero-form>
     <heroes-list></heroes-list>
     <http-test></http-test>
+    <observable-test></observable-test>
     `,
-    directives:[HeroComponent, HeroFormComponent,HeroesListComponent,HttpTestComponent]
+    directives:[HeroComponent, HeroFormComponent,HeroesListComponent,HttpTestComponent,ObservableTestComponent]
 })
 
 

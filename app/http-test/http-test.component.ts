@@ -79,6 +79,9 @@ class CredentialsModel {
 })
 
 export class HttpTestComponent{
+    http: Http;
+    randomQuote: string;
+    secretQuote: string;
     
     constructor(http:Http){
         this.http=http;
